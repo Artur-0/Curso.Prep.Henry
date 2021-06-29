@@ -1,0 +1,23 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos
+ como si se lo estuvieras explicando a un niño de 12 años.
+  Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+for
+
+for es un bucle donde primero se declara una variable y se le da un valor, segundo se pone la condicion requerida 
+para que el bucle continue, tercero se define un aumento o decremento y finalmente el codigo que queremos que se repita
+
+
+
+&&, ||, !
+
+el operador booleano '&&'(and) lo que hace es preguntar si el dato por ej 'x' y el dato 'y' son ambos true o false
+o sea compara los dos por ej : if (messi=campeonDelMundo && maradona = campeonDelMundo) { return true} ;
+ambos deberan ser ciertos para que se devuelva true. si uno de las dos declaraciones no son ciertas, nos dara false
+
+|| este operador booleano se llama (or) y basicamente sirve para retornar true si cualquier de las dos declaraciones es cierta
+si la primera es falsa y la segunda verdadera de todos modos nos dara true ya que solo necesita que una sea verdadera
+
+
+! este signo niega o dice que algo no es igual a por ejemplo
+invierno != verano  nos dice que invierno no es igual a verano.
