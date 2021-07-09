@@ -6,7 +6,7 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  let gato = { 
+  const gato = { 
     nombre : nombre,
     edad : edad,
     meow: function(){
@@ -37,7 +37,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-let producto =objetoMisterioso.numeroMisterioso * 5
+const producto =objetoMisterioso.numeroMisterioso * 5
 return producto;
 }
 
@@ -54,7 +54,7 @@ function nuevoUsuario(nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-let objeto = {
+const objeto = {
   nombre: nombre,
   email: email,
   password: password,
@@ -135,7 +135,7 @@ function sumarLikesDeUsuario(usuario) {
   // Devuelve la suma
   // Tu código:
   let suma = 0;
-  for(i=0; i< usuario.posts.length; i++){
+  for(let i=0; i< usuario.posts.length; i++){
 suma= usuario.posts[i].likes + suma;
   }
   return suma;
@@ -152,7 +152,7 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 producto.calcularPrecioDescuento = function(){
-let descuento = producto.precio * producto.porcentajeDeDescuento;
+const descuento = producto.precio * producto.porcentajeDeDescuento;
 producto.precio = producto.precio - descuento;
 return producto.precio;
 }
